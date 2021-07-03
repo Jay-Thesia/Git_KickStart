@@ -1,0 +1,36 @@
+git init: Initilizes the current folder as a git repository
+git status:current status of the folder
+git add<files/folder> add files/floder to staging area
+git add . : to add all the files in a folder
+git commit -m "Message": commit the changes to the git repository
+git log --oneline: see a brief log of commits
+git checkout<commit><file>: checkout the file from an older commit
+git reset HEAD <file>: unstage a stage file , but leave working directory unchanged
+git reset : rest the staging area to the last commit without distrubing the working directory
+git remote add origin <repository url> add the remote online repository
+git push -u origin master:push the local git repository to the origin to the master branch
+git remote set-url origin: if you typed wrong url to change
+mkdir name:make a folder
+ls:list
+git clone <url>:clone an online git repo to your pc
+*****git push -u origin HEAD : This saves you from having to type out the exact name of the branch!
+git pull : remote repo changes to local
+
+npm init
+dir:list folder content(for cmd)
+
+To see local branches, run this command:
+git branch
+To see remote branches, run this command:
+git branch -r
+To see all local and remote branches, run this command:
+git branch -a
+
+Bootstrap grid: contains 12 col
+container->row->col-12 for xs to xl
+col-sm,col-md,col-lg
+
+order->order-sm-first
+
+
+getOrDefault hashmap
